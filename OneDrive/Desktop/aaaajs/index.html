@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>5webPages</title>
+    <style type="text/css">
+        @import url('https://fonts.googleapis.com/css2?family=Cairo&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap');
+
+        body {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        #navbar {
+            /*overflow: hidden;*/
+            background-color: rgb(14, 13, 12);
+            /*opacity: .9;*/
+            padding-bottom: .3vw;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1;
+        }
+
+        #left {
+            float: left;
+        }
+
+        #right {
+            float: right;
+        }
+
+        #left p {
+            font-size: 1.5em;
+            margin: .5vw;
+            color: #FFD705;
+            font-family: 'Cairo', sans-serif;
+        }
+
+        #right a {
+            text-decoration: none;
+            color: rgb(255, 217, 0);
+            top: .7vw;
+            position: relative;
+            font-size: 1.7vw;
+            margin-right: 2vw;
+        }
+
+        #welcome-section {
+            background-image: url('https://images.pexels.com/photos/1040499/pexels-photo-1040499.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+            background-repeat: no-repeat;
+            background-size: cover;
+            padding-top: 4.5vw;
+            height: 91vh;
+        }
+
+        #welcome-section h1 {
+            text-align: center;
+            font-size: 5vw;
+            top: -2vw;
+            position: relative;
+            font-family: 'Mochiy Pop P One', sans-serif;
+            color: #FFD705;
+        }
+        #img-div{
+            margin: -2px;
+            text-align: center;
+        }
+        #img-caption{
+            text-align: center;
+            color: #fff;
+            padding: 2rem;
+        }
+        #table-section{
+            background-color: rgb(23, 30, 24);
+        }
+        table, th, td {
+            border:1px solid rgb(230, 229, 229);
+            text-align: center;
+        }
+        th, td{
+            color: #fff;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav id="navbar">
+
+            <div id="left">
+                <p><strong>5</strong>web<strong>Pages</strong></p>
+            </div>
+
+            <div id="right">
+                <a href="/index.html" target="_blank" class="links">Home</a>
+                <a href="/about.html" target="_blank" class="links">About</a>
+                <a href="/whyILove.html" target="_blank" class="links">Why I love</a>
+                <a href="/whyMyFavorite.html" target="_blank" class="links">Why My Favorite</a>
+                <a href="/allLinks.html" target="_blank" class="links">All links</a>
+            </div>
+        </nav>
+    </header>
+    <main id="main">
+        <div id="welcome-section">
+            <h1 id="title">Dr. APJ Abdul Kalam</h1>
+            <figure id="img-div">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/A._P._J._Abdul_Kalam.jpg/330px-A._P._J._Abdul_Kalam.jpg" alt="Dr. APJ Abdul Kalam" id="image">
+                <div id="img-caption">Indian scientist and politician who played a leading role in the development of India's
+                    missile and nuclear weapons
+                    programs. He was president of India from 2002 to 2007
+                </div>
+            </figure>
+                <section id="table-section">
+                    <table style=" margin-left: auto; margin-right: auto; width:70%">
+                        <tr>
+                            <th>Event</th>
+                            <th>Date</th>
+                        </tr>
+                        <tr>
+                            <td>Born on</td>
+                            <td>15 October 1931</td>
+                        </tr>
+                        <tr>
+                            <td>Died</td>
+                            <td>27 July 2015</td>
+                        </tr>
+                    </table>
+                </section>
+        </div>
+    </main>
+</body>
+
+</html>
